@@ -1,12 +1,7 @@
-html {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-centre {
-    height: 100vh;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -47,4 +42,19 @@ html {
 
 .search-button:hover {
     border-color: rgb(200,200,200);
+}
+
+.container-top {
+
+}
+
+.container-centre {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.container-bottom {
+
 }
