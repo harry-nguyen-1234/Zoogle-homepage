@@ -4,6 +4,16 @@ html, body {
     padding: 0;
 }
 
+a {
+    text-decoration-line: none;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
 .logo {
     position: relative;
     display: block;
@@ -44,17 +54,39 @@ html, body {
     border-color: rgb(200,200,200);
 }
 
-.container-top {
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+.container-top {
+    padding: 1em;
+    height: 1em;
+}
+
+.container-top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-top li {
+    display: inline;
+    padding: 20px;
 }
 
 .container-centre {
-    height: 100vh;
     display: flex;
     flex-direction: column; 
     justify-content: center;
+    flex: 1;
 }
 
 .container-bottom {
-
+    padding: 1em;
+    font-size: 14px;
+    background-color: rgb(235,235,235);
+    height: 1em;
 }
