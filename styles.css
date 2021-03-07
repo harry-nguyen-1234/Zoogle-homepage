@@ -1,3 +1,42 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.logo {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    border-radius: 2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1em;
+}
+
+.search-button {
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.5em;
+    background-color: rgb(245,245,245);
+    border-width: 1px;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.search-button:hover {
+    border-color: rgb(200,200,200);
+}
